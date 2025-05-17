@@ -1,13 +1,16 @@
-/* ========== BASE & VARIABLES ========== */
 :root {
-  --bg-light: #f5f7fa;
-  --bg-dark: #0d1117;
-  --fg-light: #1c1c1e;
-  --fg-dark: #f0f0f5;
-  --primary: #ff6347;
-  --accent: #14b8a6;
+  --bg-light: #f8f9fa;
+  --bg-dark: #121212;
+
+  --fg-light: #1f2937;
+  --fg-dark: #e5e7eb;
+
+  --primary: #2563eb;  /* Deep Blue */
+  --accent: #38bdf8;   /* Sky Blue */
+
   --card-bg: rgba(255, 255, 255, 0.85);
   --card-dark-bg: rgba(255, 255, 255, 0.05);
+
   --radius: 14px;
   --shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
   --transition: 0.3s ease;
@@ -48,7 +51,7 @@ body[data-theme="dark"] {
 }
 
 .section.alt {
-  background: linear-gradient(to right, rgba(255,99,71,0.05), rgba(20,184,166,0.05));
+  background: linear-gradient(to right, rgba(37,99,235,0.05), rgba(56,189,248,0.05));
   border-radius: var(--radius);
 }
 
@@ -149,13 +152,12 @@ body[data-theme="dark"] #navbar {
   color: #f0f0f0;
 }
 
-/* ========== ANIMATIONS ========== */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* ========== SECTION TITLES ========== */
+/* ========== SECTION HEADERS ========== */
 .section h2 {
   font-size: 2.4rem;
   text-align: center;
